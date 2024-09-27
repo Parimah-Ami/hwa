@@ -19,9 +19,14 @@
     }
   </style>
   <body>
+    <div id="div" onclick= "
+      changeColor()" >Click Me</div>
     <div>Click Me</div>
     <div>Click Me</div>
-    <div>Click Me</div>
-    <script src="click.js"></script>
+    <script>
+      function changeColor() {
+
+        document.getElementById("div").style.color = "#ff0000" }
+    </script>
   </body>
 </html>
