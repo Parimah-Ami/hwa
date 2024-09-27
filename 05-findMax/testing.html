@@ -28,16 +28,28 @@
     }
     return false
 
-}
+        } 
 
-let str1 = "racecar";
-let str2 = "nitin";
-let str3 = "Rama";
+        let str1 = "racecar";
+        let str2 = "nitin";
+        let str3 = "Rama";
 
-console.log(isPalindrome(str1));
-console.log(isPalindrome(str2));
-console.log(isPalindrome(str3));
-
+        console.log(isPalindrome(str1));
+        console.log(isPalindrome(str2));
+        console.log(isPalindrome(str3));
+    // fac js test
+    function factorial(num) {
+        if (num < 0) 
+                return -1;
+        else if (num == 0) 
+            return 1;
+        else {
+            return (num * factorial(num - 1));
+        }
+        }
+        factorial(10);
+        console.log(factorial(10))
+        
 
    </script>
     
