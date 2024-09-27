@@ -1,0 +1,1 @@
+// code directly inside index.html 
