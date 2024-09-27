@@ -49,7 +49,26 @@
         }
         factorial(10);
         console.log(factorial(10))
-        
+        // fizz and buzz
+        let points = Array(100);
+        let label = points.length;
+        for (let i = 1; i < label; i++)
+         {
+            console.log(i);
+        }
+
+        let words = [
+            "longest",
+            "grace",
+            "hello",
+            "old",
+        ];
+        function longestWord () {
+            return words.sort (function (a , b) {
+                return b.length - a.length;
+            }) [0];
+        }
+        console.log (longestWord())
 
    </script>
     
